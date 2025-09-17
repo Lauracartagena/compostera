@@ -80,9 +80,24 @@ h2{
     margin-top: 25px;
 }
 
-#contenedor_cabecera{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
+#contenedor_encabezado {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+#contenedor_encabezado img {
+  max-width: 45%;
+  height: auto;
+}
+
+main h5{
+  margin-top: 50px;
+}
+
+main p{
+  margin-left: 25px;
+  margin-right: 25px;
 }
