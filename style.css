@@ -7,7 +7,7 @@
 
 main {
   text-align: center;
-  background-color: #ffffff;
+  background-color: transparent;
 }
 
 #sensores {
@@ -35,7 +35,7 @@ main {
 #datos {
   margin-top: 25px;
   color: #1a1818;
-  background-color: #f1f1f1;
+  background-color: rgb(190, 240, 240); 
   padding: 30px 30px;
   width: 40%;
   border-radius: 15px;
@@ -46,18 +46,18 @@ main {
               rgba(207, 207, 207, 0.3) 0px 18px 36px -18px inset;
 }
 
-header {
+header, h1, h8 {
   color: rgb(29, 26, 26);
   text-align: center;
   padding: 15px;
-  background-color: #ffffff;
+  background-color: transparent;
 }
 
 footer {
   color: rgba(0, 0, 0, 0.7);
   text-align: center;
   padding: 15px;
-  background-color: #ffffff;
+  background-color: transparent;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -101,3 +101,25 @@ main p{
   margin-left: 25px;
   margin-right: 25px;
 }
+
+#contenedor_encabezado2 img{
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 50%;
+  max-width: 40%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("media/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+
